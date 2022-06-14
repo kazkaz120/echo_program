@@ -1,7 +1,7 @@
 package main
 
 import (
-	"C:\Users\syuka\simple-webapp-master\go-echo\handlers"
+	"github.com/kazkaz120/echo_program/handlers"
 	"github.com/labstack/echo"
 )
 

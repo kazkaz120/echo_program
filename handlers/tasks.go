@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"C:\Users\syuka\simple-webapp-master\go-echo\models"
+	"github.com/kazkaz120/echo_program/models"
 	"github.com/labstack/echo"
 )
 
