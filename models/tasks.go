@@ -2,7 +2,7 @@ package models
 
 // Task is a struct containing Task data
 type Task struct {
-	ID   string `json:"id"`
+	ID   int    `json:"id"`
 	Name string `json:"name"`
 }
 
