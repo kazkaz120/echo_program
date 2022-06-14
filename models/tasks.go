@@ -15,8 +15,8 @@ type TaskCollection struct {
 func GetTasks() (tc TaskCollection) {
 	tc = TaskCollection{
 		[]Task{
-			{1, "洗濯"},
-			{2, "勉強"},
+			{1, "sentaku"},
+			{2, "bennkyo"},
 		},
 	}
 
