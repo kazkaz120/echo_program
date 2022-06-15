@@ -4,7 +4,7 @@ package models
 type Task struct {
 	ID    int    `json:"id"`
 	Name  string `json:"name"`
-	Name2 string `json:"name"`
+	Name2 string `json:"name2"`
 }
 
 // TaskCollection is collection of Tasks
