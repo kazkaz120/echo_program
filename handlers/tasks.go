@@ -16,8 +16,8 @@ func CreateTasks(c echo.Context) error {
 	name := c.FormValue("name")
 	name2 := c.FormValue("name2")
 	Tasks := model.Task{
-		Name: name,
-		Name2  name2,
+		Name:  name,
+		Name2: name2,
 	}
 	Tasks.Create()
 
