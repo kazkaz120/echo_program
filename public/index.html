@@ -8,10 +8,14 @@
         <div>
             <h1>表示ページ</h1>
             <button v-on:click="showTask">詳細</button>
-            <button v-on:click="updateTask">追加</button>>
+            <form method="POST" action="writeout">
+            <input type="text" name="name">
+            <input type="text" name="name2">
+                <input type="submit" value="追加">
+            </form>
             <ul>
                 <li v-for="task in tasks">
-                    {{ task.name }} {{ task.Name2}}
+                    {{ task.name }} {{ task.name2}}
                 </li>
             </ul>
         </div>
