@@ -29,7 +29,7 @@ func GetTasks() (tc TaskCollection) {
 	return
 }
 
-func CreateTasks(name, name2, name3) (tc TaskCollection) {
+func CreateTasks(name string, name2 string, name3 string) (tc TaskCollection) {
 	tc = TaskCollection{
 		[]Task{
 			{1, "洗濯", "消費", "1時間"},
