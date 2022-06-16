@@ -11,11 +11,12 @@
             <form method="POST" action="writeout">
             <input type="text" name="name">
             <input type="text" name="name2">
+            <input type="text" name="name3">
                 <input type="submit" value="追加">
             </form>
             <ul>
                 <li v-for="task in tasks">
-                    {{ task.name }} {{ task.name2}}
+                    {{ task.name }} {{ task.name2}} {{ task.name3 }}
                 </li>
             </ul>
         </div>
