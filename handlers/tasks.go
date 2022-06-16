@@ -15,8 +15,8 @@ func GetTasks(c echo.Context) error {
 func CreateTasks(c echo.Context) error {
 	name := c.FormValue("name")
 	name2 := c.FormValue("name2")
-	name3:= c.FormValue("name3")
-	retun c.JSON(http.StatusOK, models.CreateTasks(name, name2 , name3))
+	name3 := c.FormValue("name3")
+	return c.JSON(http.StatusOK, models.CreateTasks(name, name2, name3))
 	//	Tasks.Create()
 
 }

@@ -11,6 +11,6 @@ func main() {
 
 	e.File("/", "public/index.html")
 	e.GET("/tasks", handlers.GetTasks)
-	//	e.POST("/writeout", handlers.CreateTasks)
+	e.POST("/writeout", handlers.CreateTasks)
 	e.Start(":8080")
 }
